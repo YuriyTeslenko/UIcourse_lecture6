@@ -1,0 +1,114 @@
+@font-face{
+  font-family: "cczoinks";
+  src: url("../font/ufonts.com_cc-zoinks-medium.ttf");
+}
+body {
+	background-color: #050505;
+  color: #f3f3f3;
+  text-align: center;
+  font-family: arial;
+}
+div{
+  width: 961px;
+  display: inline-block; 
+}
+#wrap {
+  width: 1200px;
+  background: url(../i/back1.gif) no-repeat,
+    url(../i/back2.gif) 0px 639px;
+}
+p {
+  text-align: left;
+  font-size: 10pt;
+  letter-spacing: -0.2px;
+}
+.navibar{
+  margin-top: 19px;
+  margin-bottom: 32px;
+}
+.imgleft{
+  float: left;
+  margin-top: 12px;
+  margin-left: -5px;
+  margin-bottom: 10px;
+  box-shadow: -2px -2px 10px 10px rgba(255,255,255,.09);
+}
+.imgright{float: right}
+
+.imgbstar{
+  margin-bottom: 22px;
+  margin-left: -6px;
+}
+.bstar{
+  text-align: left;
+  margin-top: 57px;
+  width: 500px;
+  height: 76px;
+}
+
+h1{
+  font-family: cczoinks;
+  text-align: left;
+  font-weight: normal;
+  font-size: 2.2em;
+  text-shadow:
+   -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+     2px 2px 0 #000;
+  text-transform: uppercase;
+  margin-top: 0.3em;
+  margin-bottom: -0.2em;
+  padding-left: 4.4em;
+
+}
+h2{
+  font-family: cczoinks;
+  font-weight: normal;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000; 
+  color: #f5cb46;
+  text-transform: uppercase;
+}
+h3{
+  display: inline-block;
+  font-family: cczoinks;
+  font-weight: normal;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000; 
+  text-transform: uppercase;
+  margin-top: 0.1em;
+}
+.yellow{color: #f5cb46}
+
+
+li{
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  text-align: left;
+  font-size: 8pt;
+  vertical-align: middle;
+
+}
+span{
+  display: inline-block;
+}
+
+
+
+
+
+
+.plused{
+  list-style: url(../i/plus.png);
+
+}  
+.starred{
+  list-style: url(../i/star.png);
+}

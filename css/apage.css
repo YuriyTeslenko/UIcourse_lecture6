@@ -1,0 +1,14 @@
+@font-face{
+    font-family: "cczoinks";
+    src: url("../font/ufonts.com_cc-zoinks-medium.ttf");
+}
+body {
+	background-color: #050505;
+	color: #f3f3f3;
+	text-align: center;
+	font-family: arial;
+}
+.header{
+	width: 1200px;
+  	background-image: url(../i/back1.gif);
+}
