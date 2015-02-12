@@ -14,23 +14,41 @@ div{
 }
 #wrap {
   width: 1200px;
+  min-height: 1400px;
   background: url(../i/back1.gif) no-repeat,
-    url(../i/back2.gif) 0px 639px;
+    url(../i/back2.gif) 0px 639px no-repeat,
+    url(../i/back3.gif) 0px 1166px no-repeat,
+    url(../i/back2.gif) 0px 1693px no-repeat
+    ;
 }
 p {
   text-align: left;
   font-size: 10pt;
   letter-spacing: -0.2px;
+  margin-top: -4px;
 }
 .navibar{
-  margin-top: 19px;
-  margin-bottom: 32px;
+  text-align: left;
+  margin-top: 26px;
+  margin-bottom: 30px;
+}
+.navimg{
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.navitxt{
+  display: inline-block;
+  background-color: #5c2b0c;
+  line-height: 18px;
+  vertical-align: top;
+  margin-top: 5px;
 }
 .imgleft{
   float: left;
-  margin-top: 12px;
+  margin-top: 13px;
   margin-left: -5px;
-  margin-bottom: 10px;
   box-shadow: -2px -2px 10px 10px rgba(255,255,255,.09);
 }
 .imgright{float: right}
@@ -42,10 +60,14 @@ p {
 .bstar{
   text-align: left;
   margin-top: 57px;
+  margin-bottom: 50px;
   width: 500px;
   height: 76px;
 }
-
+.bstartxt{
+  width: 111px;
+  margin-top: 17px;
+}
 h1{
   font-family: cczoinks;
   text-align: left;
@@ -65,6 +87,7 @@ h1{
 h2{
   font-family: cczoinks;
   font-weight: normal;
+  font-size: 22pt;
   text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -74,7 +97,6 @@ h2{
   text-transform: uppercase;
 }
 h3{
-  display: inline-block;
   font-family: cczoinks;
   font-weight: normal;
   text-shadow:
@@ -83,32 +105,46 @@ h3{
     -1px 1px 0 #000,
      1px 1px 0 #000; 
   text-transform: uppercase;
-  margin-top: 0.1em;
+  margin-top: -0.1em;
+  margin-bottom: -0.1em;
 }
 .yellow{color: #f5cb46}
-
-
-li{
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
-  text-align: left;
-  font-size: 8pt;
-  vertical-align: middle;
-
+.feedb{
+  color: #c4cd64;
+  text-indent: -1.4em;
+  max-width: 190px;
+  margin-left: 100px;
+  line-height: 1.5em;
+  height: 90px;
 }
+
+
 span{
   display: inline-block;
+  width: 310px;
+  text-align: left;
+  vertical-align: top;
 }
-
-
-
-
-
-
+.centrsp{
+  width: 316px;
+  margin-left: 14px;
+}
+ul{
+  padding: 0px;
+}
+ul li{
+  padding-top: 0.6em;
+  text-align: left;
+  font-size: 10pt;
+  vertical-align: top;
+}
 .plused{
-  list-style: url(../i/plus.png);
-
+  list-style: url(../i/plus.png) inside;
 }  
 .starred{
-  list-style: url(../i/star.png);
+  list-style: url(../i/star.png) inside;
+}
+.footr{
+  vertical-align: middle;
+  margin: 25px;
 }
